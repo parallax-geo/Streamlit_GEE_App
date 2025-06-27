@@ -1,0 +1,10 @@
+earthengine_api==0.1.386
+folium==0.15.1
+geemap==0.30.4
+matplotlib==3.7.4
+numpy==1.24.4
+pandas==2.0.3
+Shapely==2.0.2
+streamlit==1.30.0
+python-dotenv
+streamlit-option-menu
