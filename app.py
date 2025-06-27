@@ -64,7 +64,6 @@ ee.Initialize(credentials=credentials)
 def redirect(url):
     st.markdown(f'<meta http-equiv="refresh" content="0; url={url}">', unsafe_allow_html=True)
 
-
 # Function to get basins and sub-basins.
 def get_basins():
     dataset = ee.FeatureCollection('projects/ee-mspkafg/assets/1-final_validated_data/SubBasins')
