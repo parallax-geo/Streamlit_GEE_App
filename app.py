@@ -55,8 +55,8 @@ from ee import data
 
 from google.oauth2 import service_account
 
-service_account = 'test-service@ee-mspkafg.iam.gserviceaccount.com'
-credentials = ee.ServiceAccountCredentials(service_account, 'google-credentials.json')
+service_account = 'your_service_account' #you can create one using google cloud console
+credentials = ee.ServiceAccountCredentials(service_account, 'google-credentials.json') #download the file and rename it to google-credentials or pass the json filename here
 
 ee.Initialize(credentials=credentials)
 
